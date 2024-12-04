@@ -141,3 +141,43 @@ body {
     }
     .gen-one h1 { font-size: 2rem; }
 }
+
+/* Estilos específicos para segunda generación */
+.gen-two {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f5f5f5; /* Un fondo ligeramente diferente para distinguir */
+}
+
+.gen-two h1,
+.gen-two h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.gen-two h1 { 
+    font-size: 2.5rem; 
+}
+
+@media (max-width: 768px) {
+    .gen-two h1 { font-size: 2rem; }
+}
+
+/* Estilos específicos para tercera generación */
+.gen-three {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e8f4f8; /* Fondo con tono azulado suave */
+}
+
+.gen-three h1,
+.gen-three h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.gen-three h1 { font-size: 2.5rem; }
+
+@media (max-width: 768px) {
+    .gen-three h1 { font-size: 2rem; }
+}
