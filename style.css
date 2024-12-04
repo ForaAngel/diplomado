@@ -44,6 +44,37 @@
     color: #ffcb05;
 }
 
+/* Media queries para la navbar */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 12px 16px;
+    }
+
+    .logo-text {
+        font-size: 20px;
+    }
+
+    .nav-links {
+        gap: 16px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .nav-links {
+        gap: 24px;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -52,4 +83,61 @@
 
 body {
     font-family: Arial, sans-serif;
+}
+
+/* Nuevos estilos para la sección de Pokémon */
+.gen-one {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gen-one h1,
+.starter-card h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.gen-one h1 { font-size: 2.5rem; }
+.starter-card h2 { font-size: 1.5rem; }
+
+.gen-description,
+.starter-card .type {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.gen-description { font-size: 1.2rem; }
+.starter-card .type { font-size: 1rem; }
+
+.starters-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.starter-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.starter-card:hover { transform: translateY(-10px); }
+.starter-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .starters-container { gap: 1rem; }
+    .starter-card img {
+        width: 150px;
+        height: 150px;
+    }
+    .gen-one h1 { font-size: 2rem; }
 }
