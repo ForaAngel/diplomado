@@ -181,3 +181,41 @@ body {
 @media (max-width: 768px) {
     .gen-three h1 { font-size: 2rem; }
 }
+
+/* Estilos específicos para cuarta generación */
+.gen-four {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f0e6ff; /* Fondo con tono violeta suave */
+}
+
+.gen-four h1,
+.gen-four h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.gen-four h1 { font-size: 2.5rem; }
+
+@media (max-width: 768px) {
+    .gen-four h1 { font-size: 2rem; }
+}
+
+/* Estilos específicos para quinta generación */
+.gen-five {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffe6e6; /* Fondo con tono rosado suave */
+}
+
+.gen-five h1,
+.gen-five h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.gen-five h1 { font-size: 2.5rem; }
+
+@media (max-width: 768px) {
+    .gen-five h1 { font-size: 2rem; }
+}
