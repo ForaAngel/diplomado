@@ -97,8 +97,8 @@ body {
     margin-bottom: 1rem;
 }
 
-.gen-one h1 { font-size: 2.5rem; }
-.starter-card h2 { font-size: 1.5rem; }
+.gen-one h1 { font-size: 40px; }
+.starter-card h2 { font-size: 24px; }
 
 .gen-description,
 .starter-card .type {
@@ -106,13 +106,13 @@ body {
     margin-bottom: 2rem;
 }
 
-.gen-description { font-size: 1.2rem; }
-.starter-card .type { font-size: 1rem; }
+.gen-description { font-size: 19px; }
+.starter-card .type { font-size: 16px; }
 
 .starters-container {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 32px;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
@@ -134,12 +134,12 @@ body {
 }
 
 @media (max-width: 768px) {
-    .starters-container { gap: 1rem; }
+    .starters-container { gap: 16px; }
     .starter-card img {
         width: 150px;
         height: 150px;
     }
-    .gen-one h1 { font-size: 2rem; }
+    .gen-one h1 { font-size: 32px; }
 }
 
 /* Estilos específicos para segunda generación */
@@ -156,11 +156,11 @@ body {
 }
 
 .gen-two h1 { 
-    font-size: 2.5rem; 
+    font-size: 40px; 
 }
 
 @media (max-width: 768px) {
-    .gen-two h1 { font-size: 2rem; }
+    .gen-two h1 { font-size: 32px; }
 }
 
 /* Estilos específicos para tercera generación */
@@ -176,10 +176,10 @@ body {
     margin-bottom: 1rem;
 }
 
-.gen-three h1 { font-size: 2.5rem; }
+.gen-three h1 { font-size: 40px; }
 
 @media (max-width: 768px) {
-    .gen-three h1 { font-size: 2rem; }
+    .gen-three h1 { font-size: 32px; }
 }
 
 /* Estilos específicos para cuarta generación */
@@ -195,10 +195,10 @@ body {
     margin-bottom: 1rem;
 }
 
-.gen-four h1 { font-size: 2.5rem; }
+.gen-four h1 { font-size: 40px; }
 
 @media (max-width: 768px) {
-    .gen-four h1 { font-size: 2rem; }
+    .gen-four h1 { font-size: 32px; }
 }
 
 /* Estilos específicos para quinta generación */
@@ -214,10 +214,10 @@ body {
     margin-bottom: 1rem;
 }
 
-.gen-five h1 { font-size: 2.5rem; }
+.gen-five h1 { font-size: 40px; }
 
 @media (max-width: 768px) {
-    .gen-five h1 { font-size: 2rem; }
+    .gen-five h1 { font-size: 32px; }
 }
 
 /* Estilos mejorados para el dropdown */
